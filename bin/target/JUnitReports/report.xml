@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="44.806" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test NHS job search functionality" name="Job search by title and order jobs by latest date posted" time="11.122">
+<system-out><![CDATA[
+Given user is on nhs job search page........................................passed
+When user enters title into what field......................................passed
+And clicks on search button.................................................passed
+Then user is navigated to the results page..................................passed
+And results sorted by newest Date Posted....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test NHS job search functionality" name="Job search by location and order jobs by latest date posted" time="8.705">
+<system-out><![CDATA[
+Given user is on nhs job search page........................................passed
+When user enters location into where field..................................passed
+And clicks on search button.................................................passed
+Then user is navigated to the results page..................................passed
+And results sorted by newest Date Posted....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test NHS job search functionality" name="Job search by title &amp; employer and order jobs by latest date posted" time="8.577">
+<system-out><![CDATA[
+Given user is on nhs job search page........................................passed
+When user enters title into what field......................................passed
+And user enters employer name into Employer field...........................passed
+And clicks on search button.................................................passed
+Then user is navigated to the results page..................................passed
+And results sorted by newest Date Posted....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test NHS job search functionality" name="Job search by title &amp; salary range and order jobs by latest date posted" time="8.682">
+<system-out><![CDATA[
+Given user is on nhs job search page........................................passed
+When user enters title into what field......................................passed
+And user selects payrange from dropdown.....................................passed
+And clicks on search button.................................................passed
+Then user is navigated to the results page..................................passed
+And results sorted by newest Date Posted....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test NHS job search functionality" name="Negative scenario to test search functionality with incorrect job location" time="7.465">
+<system-out><![CDATA[
+Given user is on nhs job search page........................................passed
+When user enters incorrect location into where field........................passed
+And clicks on search button.................................................passed
+Then user is displayed with message 'Location not found'....................passed
+]]></system-out>
+</testcase>
+</testsuite>
