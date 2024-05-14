@@ -1,6 +1,6 @@
 # PoornimaGottumukkala-NHSBSA
 
-# This README file contains instructions for executing the automated tests for the NHS job search feature.
+## This README file contains instructions for executing the automated tests for the NHS job search feature.
 
 **Instructions to Execute Tests:**
 
@@ -23,7 +23,7 @@ Please clone the repo from "https://github.com/gottumukkala-p/PoornimaGottumukka
     * Step 1: Select the runner file from the following path: PoornimaGottumukkala-NHSBSA/src/test/java/StepDefinitions/NHSJobSearchRunnerTest.java
     * Step 2: Right-click -> Run As -> JUnit Test.
 
-# More Info:
+### More Info:
 
 **Important File Details:**
   - Feature File Name: NHSJobSearch.feature
