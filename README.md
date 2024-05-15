@@ -42,4 +42,4 @@ Please clone the repo from "https://github.com/gottumukkala-p/PoornimaGottumukka
            Build id: 20240307-1437
   * Firefox: 125.0.3 
   * Chrome: Version 124.0.6367.202
-   Maven: apache-maven-3.9.6
+  * Maven: apache-maven-3.9.6
