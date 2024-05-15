@@ -1,6 +1,6 @@
 # PoornimaGottumukkala-NHSBSA
 
-## This README file contains instructions for executing the automated tests for the NHS job search feature.
+## This README file contains instructions for executing the automated tests for the NHS job search feature and also details about important files and tools.
 
 **Instructions to Execute Tests:**
 
@@ -43,3 +43,5 @@ Please clone the repo from "https://github.com/gottumukkala-p/PoornimaGottumukka
   * Firefox: 125.0.3 
   * Chrome: Version 124.0.6367.202
   * Maven: apache-maven-3.9.6
+  * cucumber: 7.17.0
+  * selenium: 4.20.0
